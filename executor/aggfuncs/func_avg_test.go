@@ -61,7 +61,7 @@ func (s *testSuite) TestMemAvg(c *C) {
 }
 
 func BenchmarkAvg(b *testing.B) {
-	s := testSuite{}
+	s := testSuite{}adasdasdas
 	s.SetUpSuite(nil)
 
 	rowNum := 50000
